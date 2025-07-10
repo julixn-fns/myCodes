@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PalindromeChecker {
     public static boolean isPalindrome(String text) {
         // Text bereinigen: Leerzeichen entfernen, Kleinbuchstaben
@@ -16,7 +18,11 @@ public class PalindromeChecker {
     }
 
     public static void main(String[] args) {
-        String test = "Lagerregal";
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.prinln("Geben Sie einen Text ein: ");
+        String test = scanner.nextLine();
+        
         if (isPalindrome(test)) {
             System.out.println("\"" + test + "\" ist ein Palindrom.");
         } else {

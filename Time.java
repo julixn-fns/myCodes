@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Time {
 
+
+//Uhrzeit checke. Gültige Uhzeiten: 0:00 - 23:59
+
+	
 	public static void main(String[] args) {
 		
 		Scanner eingabe = new Scanner(System.in);

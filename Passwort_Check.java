@@ -1,4 +1,3 @@
-package uebung4;
 import java.util.Scanner;
 
 //Dieses Programm prüft eingegebene Passwörter auf ihre Sicherheit
